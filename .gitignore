@@ -1,0 +1,205 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ===========================
+# Root .gitignore
+# ===========================
+
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------
+# Environment Variables
+# ---------------------------
+.env
+.env.*
+!.env.example
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------
+# IDE
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------
+# Operating System
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Node / React / Vite
+# ---------------------------
+client/node_modules/
+client/dist/
+client/.vite/
+
+node_modules/
+dist/
+.vite/
+
+# npm
+package-lock.json
+
+# Uncomment if using Yarn or PNPM
+# yarn.lock
+# pnpm-lock.yaml
+
+# ---------------------------
+# ML Models
+# ---------------------------
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.keras
+*.joblib
+*.pickle
+*.pkl
+
+# Ignore downloaded pretrained models
+pretrained_models/
+
+# If you want to keep folder structure
+!pretrained_models/.gitkeep
+
+# ---------------------------
+# Uploads / Generated Files
+# ---------------------------
+uploads/
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.aac
+*.m4a
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Keep sample assets if needed
+!public/**/*.png
+!public/**/*.jpg
+!public/**/*.jpeg
+!src/assets/**/*.png
+!src/assets/**/*.jpg
+
+# ---------------------------
+# Database
+# ---------------------------
+*.db
+*.sqlite
+*.sqlite3
+local_db.json
+
+# ---------------------------
+# Temporary Files
+# ---------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---------------------------
+# Test Output
+# ---------------------------
+coverage/
+reports/
+
+# ---------------------------
+# Build Artifacts
+# ---------------------------
+*.out
+*.exe
+*.dll
+
+# ---------------------------
+# VS Code Testing
+# ---------------------------
+.history/
+
+# ---------------------------
+# Secrets
+# ---------------------------
+*.pem
+*.key
+*.crt
